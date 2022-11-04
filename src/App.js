@@ -1,4 +1,4 @@
-import Counter from "./components/Counter";
+import MyCounter from "./components/MyCounter";
 import MyGitHub from "./components/MyGitHub";
 
 function App() {
@@ -8,11 +8,13 @@ function App() {
         Hello React!
       </h1>
       <h2>
-        Daniel DeFrance - h48c334
+        Josh Harvey - x87b678
       </h2>
 
       <hr />
-      <Counter /><hr />
+      <MyCounter incBy={1}/><hr />
+      <MyCounter incBy={2}/><hr />
+
       <MyGitHub /><hr />
 
     </div>
